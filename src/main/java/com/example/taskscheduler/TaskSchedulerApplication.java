@@ -9,7 +9,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 @SpringBootApplication
-@EnableScheduling
+@EnableScheduling //enables Spring @Scheduled
 public class TaskSchedulerApplication {
 
     public static void main(String[] args) throws InterruptedException {
